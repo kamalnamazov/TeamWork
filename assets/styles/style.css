@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,6 +32,9 @@
     margin-left: 125px;
     border-radius: 30px;
     background-color: #FFF;
+    -webkit-box-shadow: -14px -7px 141px -110px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -14px -7px 141px -110px rgba(0, 0, 0, 0.75);
+    box-shadow: -14px -7px 141px -110px rgba(0, 0, 0, 0.75);
 }
 
 .nuraib .container .box {
@@ -60,4 +63,70 @@
     font-size: 30px;
     line-height: 30.42px;
     margin-bottom: 40px;
+}
+
+/* Media Query for Tablet Mode */
+@media (max-width: 768px) {
+    .nuraib {
+        height: auto;
+    }
+
+    .nuraib .header {
+        font-size: 35px;
+        margin-left: 40px; /* Reduced margin */
+        margin-top: 20px;  /* Reduced margin */
+        text-align: start;
+    }
+
+    .nuraib .container {
+        width: 70%; /* Decreased width for tablet view */
+        margin-left: 40px; /* Center using automatic margins */
+        padding: 10px; /* Reduced padding */
+    }
+
+    .nuraib .container .box {
+        margin-left: 0; /* Remove margin */
+        padding: 10px; /* Reduced padding */
+        gap: 20px; /* Reduced gap */
+    }
+
+    .nuraib .container .box .title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .nuraib .container .box .info .info-text .text {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 480px) {
+    .nuraib .container {
+        width: 90%; /* Further decreased width for smaller devices */
+        margin-left: 0; /* Remove left margin */
+        padding: 5px; /* Further reduced padding */
+    }
+
+    .nuraib .header {
+        font-size: 28px;
+        margin-left: 5px; /* Further reduced margin */
+        margin-top: 10px; /* Further reduced margin */
+    }
+
+    .nuraib .container .box {
+        padding: 5px; /* Further reduced padding */
+        gap: 15px; /* Further reduced gap */
+    }
+
+    .nuraib .container .box .title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .nuraib .container .box .info .info-text .text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
 }
