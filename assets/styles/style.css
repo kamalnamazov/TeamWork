@@ -9,11 +9,55 @@
     width: 100%;
     height: 780px;
     background: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
 }
 
 .nuraib .header {
     font-size: 55px;
     height: 93px;
-    padding-left: 121px;
-    padding-top: 91px;
+    margin-left: 121px;
+    margin-top: 91px;
+    line-height: 55.76px;
+}
+
+.nuraib .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 791px;
+    height: 451px;
+    margin-left: 125px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+
+.nuraib .container .box {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: 20px;
+}
+
+.nuraib .container .box .title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.nuraib .container .box .info {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nuraib .container .box .info .info-text .text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30.42px;
+    margin-bottom: 40px;
 }
