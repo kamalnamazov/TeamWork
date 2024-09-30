@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+.nuraib {
+    width: 100%;
+    height: 780px;
+    background: #EFEFEF;
+}
+
+.nuraib .header {
+    font-size: 55px;
+    height: 93px;
+    padding-left: 121px;
+    padding-top: 91px;
+}
