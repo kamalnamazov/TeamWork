@@ -66,7 +66,7 @@
 }
 
 /* Media Query for Tablet Mode */
-@media (max-width: 768px) {
+@media (max-width: 991px) and (min-width: 600px) {
     .nuraib {
         height: auto;
     }
@@ -102,7 +102,7 @@
 }
 
 /* Media Query for Mobile Phones */
-@media (max-width: 480px) {
+@media (max-width: 600px) and (min-width : 300px) {
     .nuraib .container {
         width: 90%; /* Adjusted to 90% width for mobile */
         margin: 0 auto; /* Center the container horizontally */
@@ -126,11 +126,15 @@
     }
 
     .nuraib .container .box .info {
-        gap: 10px;
+        gap: 5px;
+    }
+
+    .nuraib .container .box .info .logo {
+        width: 40%;
     }
 
     .nuraib .container .box .info .info-text .text {
-        font-size: 18px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 }
