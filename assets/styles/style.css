@@ -73,21 +73,21 @@
 
     .nuraib .header {
         font-size: 35px;
-        margin-left: 40px; /* Reduced margin */
-        margin-top: 20px;  /* Reduced margin */
+        margin-left: 40px;
+        margin-top: 20px;
         text-align: start;
     }
 
     .nuraib .container {
-        width: 70%; /* Decreased width for tablet view */
-        margin-left: 40px; /* Center using automatic margins */
-        padding: 10px; /* Reduced padding */
+        width: 70%;
+        margin-left: 40px;
+        padding: 10px;
     }
 
     .nuraib .container .box {
-        margin-left: 0; /* Remove margin */
-        padding: 10px; /* Reduced padding */
-        gap: 20px; /* Reduced gap */
+        margin-left: 0;
+        padding: 10px;
+        gap: 20px;
     }
 
     .nuraib .container .box .title {
@@ -104,25 +104,29 @@
 /* Media Query for Mobile Phones */
 @media (max-width: 480px) {
     .nuraib .container {
-        width: 90%; /* Further decreased width for smaller devices */
-        margin-left: 0; /* Remove left margin */
-        padding: 5px; /* Further reduced padding */
+        width: 90%; /* Adjusted to 90% width for mobile */
+        margin: 0 auto; /* Center the container horizontally */
+        padding: 5px;
     }
 
     .nuraib .header {
         font-size: 28px;
-        margin-left: 5px; /* Further reduced margin */
-        margin-top: 10px; /* Further reduced margin */
+        margin-left: 5px;
+        margin-top: 10px;
     }
 
     .nuraib .container .box {
-        padding: 5px; /* Further reduced padding */
-        gap: 15px; /* Further reduced gap */
+        padding: 5px;
+        gap: 15px;
     }
 
     .nuraib .container .box .title {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .nuraib .container .box .info {
+        gap: 10px;
     }
 
     .nuraib .container .box .info .info-text .text {
