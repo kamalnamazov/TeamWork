@@ -644,7 +644,7 @@
 .nih-cards {
     display: grid;
     grid-template-columns: repeat(3, 399px);
-    padding: 37px;
+    padding-top: 37px;
     gap: 37px;
     margin-left: 25px;
 }
@@ -694,6 +694,7 @@
         /* grid-template-rows: repeat(3, 189.97px); */
         gap: 21px;
         /* gap: 200px; */
+        margin: 0;
     }
 
     .nih-card {
@@ -729,6 +730,7 @@
         grid-template-columns: 185.92px;
         /* grid-template-rows: repeat(3, 189.97px); */
         gap: 24px;
+        justify-content: center;
         /* gap: 200px; */
     }
 
