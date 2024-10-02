@@ -1,0 +1,371 @@
+/* body {
+  max-width: 1440px;
+  font-family: "Roboto";
+  padding: 2.5vh 10vw;
+} */
+
+.lam_main {
+    width: 1440px;
+    height: 780px;
+    background-color: #9dc9c8;
+  }
+  .lam_p11 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55.76px;
+    display: inline;
+  }
+  .lam_p {
+    width: 980px;
+    height: 66px;
+    font-family: "Roboto Slab", serif;
+  }
+  .lam_main1 {
+    margin-left: 121px;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .lam_span {
+    font-weight: 400;
+    font-size: 80px;
+  }
+  .lam_par {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .main_ul1 {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 294px;
+  }
+  .main_ul2 {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 294px;
+  }
+  .lam_main3 {
+    display: flex;
+    gap: 100px;
+  }
+  .lam_list1 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25.35px;
+  }
+  .lam_list2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18.25px;
+  }
+  footer {
+    height: 390px;
+    width: 1440px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  .lam_footer {
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .lam_img {
+    width: 115px;
+    height: 68px;
+  }
+  .lam_img1 {
+    width: 33px;
+    height: 33px;
+  }
+  .lam_img2 {
+    width: 32px;
+    height: 32px;
+  }
+  .lam_img3 {
+    width: 35px;
+    height: 35px;
+  }
+  .lam_img4 {
+    width: 34px;
+    height: 34px;
+  }
+  .lam_src1 {
+    width: 27px;
+    height: 27px;
+    padding-right: 10px;
+  }
+  .lam_src2 {
+    width: 27px;
+    height: 18px;
+    padding-right: 10px;
+  }
+  .lam_one {
+    display: flex;
+    justify-content: space-between;
+  }
+  .lam_ul1 {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 10px;
+  }
+  
+  .lam_p1 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 25.35px;
+  }
+  .lam_p2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 25.35px;
+  }
+  .lam_fonts {
+    display: flex;
+    gap: 15px;
+  }
+  .lam_one1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .lam_bottom {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.25px;
+  }
+  .lam_foot2 {
+    display: flex;
+  }
+  .lam_src1 {
+    width: 27px;
+    height: 27px;
+  }
+  .lam_src2 {
+    width: 27px;
+    height: 18px;
+  }
+  /* Tablet */
+  @media screen and (min-width: 601px) and (max-width: 991px) {
+    .lam_main {
+      width: 834px;
+      height: 451.75px;
+    }
+    footer {
+      height: 225.88px;
+      width: 834px;
+    }
+    .lam_footer {
+      width: 800px;
+      height: 180px;
+    }
+    .lam_img {
+      width: 66.6px;
+      height: 39.38px;
+    }
+    .lam_footer {
+      margin-left: 70.66px;
+    }
+    .lam_img1 {
+      width: 19.11px;
+      height: 19.11px;
+    }
+    .lam_img2 {
+      width: 18.53px;
+      height: 18.53px;
+    }
+    .lam_img3 {
+      width: 20.27px;
+      height: 20.27px;
+    }
+    .lam_img4 {
+      width: 19.69px;
+      height: 19.69px;
+    }
+    .lam_src1 {
+      width: 15.64px;
+      height: 15.64px;
+      padding-right: 10px;
+    }
+    .lam_src2 {
+      width: 15.64px;
+      height: 10.43px;
+      padding-right: 10px;
+    }
+    .lam_p1 {
+      font-size: 14px;
+      line-height: 14.19px;
+    }
+    .lam_p2 {
+      font-size: 14px;
+      line-height: 14.19px;
+    }
+    .lam_bottom {
+      font-size: 10px;
+      line-height: 10.14px;
+    }
+    .lam_footer {
+      margin-right: 90px;
+    }
+    .lam_ul1 {
+      gap: 5px;
+    }
+    .lam_p11 {
+      font-size: 32px;
+      line-height: 32.44px;
+    }
+    .lam_par {
+      font-size: 14px;
+    }
+    .lam_span {
+      font-size: 46px;
+    }
+    .lam_main1 {
+      margin-left: 70.66px;
+      padding-top: 90px;
+      gap: 5px;
+    }
+    .lam_list1 {
+      font-size: 14px;
+      line-height: 14.19px;
+    }
+    .lam_list2 {
+      font-size: 10px;
+      line-height: 10.14px;
+    }
+    .main_ul1 {
+        width: 170.28px;
+      }
+      .main_ul2 {
+        width: 170.28px;
+      }
+  }
+  /* Mobile */
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    .lam_main {
+      width: 100%;
+      height: 363.46px;
+    }
+    footer {
+      width: 100%;
+      height: 251px;
+    }
+    .lam_p11 {
+      font-size: 26px;
+      line-height: 26.36px;
+    }
+    .lam_main1 {
+      margin-left: 34px;
+      padding-top: 50px;
+      gap: 5px;
+    }
+    .main_ul1 {
+        width: 138px;
+      }
+      .main_ul2 {
+        width: 58%;
+        
+      }
+    .lam_p {
+      width: 200px;
+      
+    }
+    .lam_par {
+      font-size: 12px;
+    
+  }
+  .lam_span {
+      font-size: 37px;
+    }
+    .lam_list1 {
+      font-size: 12px;
+      line-height: 12.17px;
+    }
+    .lam_list2 {
+      font-size: 10px;
+      line-height: 10.14px;
+    }
+    .lam_ul1 {
+      gap: 3px;
+    }
+    .lam_main3 {
+      gap: 37px;
+    }
+    .lam_img {
+      width: 53.59px;
+      height: 31.69px;
+    }
+    .lam_img1 {
+      width: 15.38px;
+      height: 15.38px;
+    }
+    .lam_img2 {
+      width: 14.91px;
+      height: 14.91px;
+    }
+    .lam_img3 {
+      width: 16.31px;
+      height: 16.31px;
+    }
+    .lam_img4 {
+      width: 15.84px;
+      height: 15.84px;
+    }
+    .lam_src1 {
+      width: 12.58px;
+      height: 12.58px;
+      padding-right: 10px;
+    }
+    .lam_src2 {
+      width: 12.58px;
+      height: 8.39px;
+      padding-right: 10px;
+    }
+    .lam_p1 {
+      font-size: 12px;
+      line-height: 12.17px;
+    }
+    .lam_p2 {
+      font-size: 12px;
+      line-height: 12.17px;
+    }
+    .lam_one {
+      display: flex;
+      flex-direction: column;
+     gap: 40px;
+    }
+    .lam_footer {
+      width: 100%;
+      height: 251px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-left: 37.85px;
+      margin-top: 30px;
+    }
+    .lam_ul1 {
+      padding-left: 0;
+    }
+    .lam_bottom {
+      font-size: 10px;
+      line-height: 10.14px;
+      margin-bottom: 30px;
+    }
+  }
+  
