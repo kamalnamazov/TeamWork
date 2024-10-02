@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2 {
+    /* margin-bottom: 188px; */
+    margin: 0px 0px 188px 121px;
+    font-size: 55px;
+}
+
+.nih-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 399px);
+    padding: 37px;
+    gap: 37px;
+    margin-left: 25px;
+}
+
+.nih-card {
+    height: 328px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 0px #00000040;
+    position: relative;
+
+}
+
+.nih-card:hover {
+    margin-top: -20px;
+    transition: 0.5s;
+}
+
+.nih-card h4 {
+    font-size: 30px;
+}
+
+.nih-card p {
+    font-size: 25px;
+}
+
+.nih-card img {
+    width: 100%;
+    height: 160px;
+}
+
+.nih-cardText {
+    padding: 17px;
+}
+
+@media screen and (min-width: 600px) and (max-width:991px) {
+
+    /* body {
+        background-color: red;
+    } */
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .nih-cards {
+        grid-template-columns: repeat(3, 231.09px);
+        /* grid-template-rows: repeat(3, 189.97px); */
+        gap: 21px;
+        /* gap: 200px; */
+    }
+
+    .nih-card {
+        height: 189.97px;
+    }
+
+    .nih-card img {
+        height:
+            92.67px;
+    }
+
+    .nih-card h4 {
+        font-size: 17px;
+    }
+
+    .nih-cards p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width:600px) {
+
+    /* body {
+        background-color: blue;
+    } */
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .nih-cards {
+        grid-template-columns: 185.92px;
+        /* grid-template-rows: repeat(3, 189.97px); */
+        gap: 24px;
+        /* gap: 200px; */
+    }
+
+    .nih-card {
+        height: 152.84px;
+    }
+
+    .nih-card img {
+        height: 74.56px;
+    }
+
+    .nih-card h4 {
+        font-size: 14px;
+    }
+
+    .nih-cards p {
+        font-size: 12px;
+    }
+
+}
