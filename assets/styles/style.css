@@ -1,3 +1,14 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
 .sam-body {
     margin-top: 3%;
     margin-left: 10%;
@@ -73,6 +84,7 @@
     border-radius: 5px;
     margin: 4% 30%;
     padding: 2%;
+    margin-bottom: 100px;
     font-size: 1.6vw;
 
 }
@@ -153,19 +165,10 @@
   padding: 2.5vh 10vw;
 } */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", system-ui;
-}
-
 .kamal {
     font-family: Roboto;
     margin-left: 8em;
+    margin-bottom: 30px;
 }
 
 .content-bir {
@@ -432,9 +435,8 @@
     display: grid;
     grid-template-columns: repeat(3, 399px);
     padding-top: 37px;
-    padding: 65px;
     gap: 37px;
-    margin-left: 25px;
+    justify-content: center;
 }
 
 .nih-card {
@@ -466,6 +468,16 @@
     padding: 17px;
 }
 
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+    .nih-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        padding-top: 37px;
+        gap: 37px;
+        justify-content: center;
+    }
+}
+
 @media screen and (min-width: 601px) and (max-width: 991px) {
     /* body {
         background-color: red;
@@ -480,7 +492,7 @@
         /* grid-template-rows: repeat(3, 189.97px); */
         gap: 21px;
         /* gap: 200px; */
-        margin: 0;
+        justify-content: center;
     }
 
     .nih-card {
@@ -541,6 +553,7 @@
     display: flex;
     flex-direction: column;
     gap: 34px;
+    margin-top: 30px;
 }
 
 .nuraib .header {
@@ -868,7 +881,7 @@ footer {
     }
 
     .lam_footer {
-        width: 800px;
+        width: 100;
         height: 180px;
         margin-left: 70.66px;
         margin-right: 90px;
