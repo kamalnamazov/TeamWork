@@ -432,6 +432,7 @@
     display: grid;
     grid-template-columns: repeat(3, 399px);
     padding-top: 37px;
+    padding: 65px;
     gap: 37px;
     margin-left: 25px;
 }
@@ -684,7 +685,6 @@
 }
 
 .lam_p {
-    width: 980px;
     height: 66px;
     font-family: "Roboto Slab", serif;
 }
