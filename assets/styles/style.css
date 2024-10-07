@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 
@@ -44,10 +43,11 @@
 }
 
 #sam-h {
+    font-family: Roboto Slab;
     /* font-size: 80px; */
     font-size: 5.3vw;
     /* width: 628px; */
-    width: 80%;
+    width: 75%;
     margin-bottom: 0;
     margin-top: 0;
     font-weight: 700;
@@ -63,7 +63,7 @@
 
 .sam-main-img {
     /* width: 304px; */
-    width: 30%;
+    width: 25%;
     position: relative;
 
 }
@@ -312,7 +312,7 @@
 
     .kamal .content-table h3 {
         font-size: 18px;
-        height: 0.8em;
+        height: 1.5em;
     }
 
     .kamal .content-table p {
@@ -331,6 +331,7 @@
 
     .kamal .content-table-iki h3 {
         font-size: 20px;
+        height: 40px;
     }
 
     .kamal .content-table-iki p {
@@ -367,8 +368,8 @@
     }
 
     .kamal .content-bir img {
-        width: 10em;
-        height: 10em;
+        width: 30%;
+        height: 15em;
         padding: 0 3em;
     }
 
@@ -376,6 +377,13 @@
         margin-top: 2em;
         margin-bottom: 4em;
     }
+
+    .kamal .content-table .tab{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
 
     .kamal .content-iki img {
         width: 8.4em;
@@ -425,6 +433,11 @@
     }
 }
 
+.nihad h2{
+    font-family: Roboto Slab;
+    font-size: 55px;
+    margin-left: 2em;
+}
 .nih-header {
     /* margin-bottom: 188px; */
     margin: 0px 0px 188px 121px;
@@ -434,7 +447,7 @@
 .nih-cards {
     display: grid;
     grid-template-columns: repeat(3, 399px);
-    padding-top: 37px;
+    padding-top: 20px;
     gap: 37px;
     justify-content: center;
 }
@@ -468,6 +481,21 @@
     padding: 17px;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1270px) {
+    .nih-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        padding-top: 37px;
+        gap: 37px;
+        justify-content: center;
+    }
+
+    .nih-card img{
+        height: auto;
+    }
+    
+}
+
 @media screen and (min-width: 991px) and (max-width: 1024px) {
     .nih-cards {
         display: grid;
@@ -476,19 +504,32 @@
         gap: 37px;
         justify-content: center;
     }
+
+    .nih-card img{
+        height: auto;
+    }
+    
 }
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
+
+    .nihad {
+        margin-bottom: 10px;
+    }
     /* body {
         background-color: red;
     } */
 
-    .nih-header {
+    /* .nih-header {
+        font-size: 26px;
+    } */
+
+    .nihad h2{
         font-size: 26px;
     }
 
     .nih-cards {
-        grid-template-columns: repeat(3, 231.09px);
+        grid-template-columns: repeat(3, 180px);
         /* grid-template-rows: repeat(3, 189.97px); */
         gap: 21px;
         /* gap: 200px; */
@@ -500,7 +541,7 @@
     }
 
     .nih-card img {
-        height: 92.67px;
+        height: auto;
     }
 
     .nih-card h4 {
@@ -517,10 +558,13 @@
         background-color: blue;
     } */
 
-    .nih-header {
+    /* .nih-header {
         font-size: 32px;
-    }
+    } */
 
+    .nihad h2{
+        font-size: 20px;
+    }
     .nih-cards {
         grid-template-columns: 185.92px;
         /* grid-template-rows: repeat(3, 189.97px); */
@@ -544,6 +588,10 @@
     .nih-cards p {
         font-size: 12px;
     }
+
+    .nih-cardText{
+        padding: 8px;
+    }
 }
 
 .nuraib {
@@ -557,6 +605,7 @@
 }
 
 .nuraib .header {
+    font-family: Roboto Slab;
     font-size: 55px;
     height: 93px;
     margin-left: 121px;
@@ -601,6 +650,7 @@
 }
 
 .nuraib .container .box .info .info-text .text {
+    font-family: roboto Slab;
     font-weight: 700;
     font-size: 30px;
     line-height: 30.42px;
@@ -611,6 +661,7 @@
 @media (max-width: 991px) and (min-width: 600px) {
     .nuraib {
         height: auto;
+        padding-bottom: 60px;
         margin-left: 0;
     }
 
@@ -684,25 +735,26 @@
     }
 }
 
-.lam_main {
+.lam-main {
     width: 100%;
     height: 780px;
     background-color: #9dc9c8;
 }
 
-.lam_p11 {
+.lam-p-bir-bir {
+    font-family: Roboto Slab;
     font-weight: 700;
     font-size: 55px;
     line-height: 55.76px;
     display: inline;
 }
 
-.lam_p {
+.lam-p {
     height: 66px;
     font-family: "Roboto Slab", serif;
 }
 
-.lam_main1 {
+.lam-main-bir {
     margin-left: 121px;
     padding-top: 180px;
     display: flex;
@@ -710,17 +762,17 @@
     gap: 50px;
 }
 
-.lam_span {
+.lam-span {
     font-weight: 400;
     font-size: 80px;
 }
 
-.lam_par {
+.lam-par {
     font-size: 25px;
     font-weight: 400;
 }
 
-.main_ul1 {
+.main-ul-bir {
     list-style: none;
     padding-left: 0;
     display: flex;
@@ -729,7 +781,7 @@
     width: 294px;
 }
 
-.main_ul2 {
+.main-ul-iki {
     list-style: none;
     padding-left: 0;
     display: flex;
@@ -738,18 +790,18 @@
     width: 294px;
 }
 
-.lam_main3 {
+.lam-main-uc {
     display: flex;
     gap: 100px;
 }
 
-.lam_list1 {
+.lam-list-bir {
     font-weight: 400;
     font-size: 25px;
     line-height: 25.35px;
 }
 
-.lam_list2 {
+.lam-list-iki {
     font-weight: 400;
     font-size: 18px;
     line-height: 18.25px;
@@ -764,7 +816,7 @@ footer {
     align-items: center;
 }
 
-.lam_footer {
+.lam-footer {
     width: 88%;
     height: 310px;
     display: flex;
@@ -773,49 +825,49 @@ footer {
     margin-left: 121px;
 }
 
-.lam_img {
+.lam-img {
     width: 115px;
     height: 68px;
 }
 
-.lam_img1 {
+.lam-img-bir {
     width: 33px;
     height: 33px;
 }
 
-.lam_img2 {
+.lam-img-iki {
     width: 32px;
     height: 32px;
 }
 
-.lam_img3 {
+.lam-img-uc {
     width: 35px;
     height: 35px;
 }
 
-.lam_img4 {
+.lam-img-dord {
     width: 34px;
     height: 34px;
 }
 
-.lam_src1 {
-    width: 27px;
-    height: 27px;
-    padding-right: 10px;
-}
-
-.lam_src2 {
+.lam-src-bir {
     width: 27px;
     height: 18px;
     padding-right: 10px;
 }
 
-.lam_one {
+.lam-src-iki {
+    width: 27px;
+    height: 18px;
+    padding-right: 10px;
+}
+
+.lam-one {
     display: flex;
     justify-content: space-between;
 }
 
-.lam_ul1 {
+.lam-ul-bir {
     display: flex;
     list-style: none;
     flex-direction: column;
@@ -823,53 +875,53 @@ footer {
     gap: 10px;
 }
 
-.lam_p1 {
+.lam-p-bir {
     color: #fff;
     font-size: 25px;
     line-height: 25.35px;
 }
 
-.lam_p2 {
+.lam-p-iki {
     color: #fff;
     font-size: 25px;
     line-height: 25.35px;
 }
 
-.lam_fonts {
+.lam-fonts {
     display: flex;
     gap: 15px;
 }
 
-.lam_one1 {
+.lam-one-bir {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.lam_bottom {
+.lam-bottom {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
     line-height: 18.25px;
 }
 
-.lam_foot2 {
+.lam-foot-iki {
     display: flex;
 }
 
-.lam_src1 {
+.lam-src-bir {
     width: 27px;
-    height: 27px;
+    height: 18px;
 }
 
-.lam_src2 {
+.lam-src-iki {
     width: 27px;
     height: 18px;
 }
 
 /* Tablet */
 @media screen and (min-width: 601px) and (max-width: 991px) {
-    .lam_main {
+    .lam-main {
         width: 100%;
         height: 451.75px;
     }
@@ -880,105 +932,105 @@ footer {
 
     }
 
-    .lam_footer {
+    .lam-footer {
         width: 100;
         height: 180px;
         margin-left: 70.66px;
         margin-right: 90px;
     }
 
-    .lam_img {
+    .lam-img {
         width: 66.6px;
         height: 39.38px;
     }
 
-    .lam_img1 {
+    .lam-img-bir {
         width: 19.11px;
         height: 19.11px;
     }
 
-    .lam_img2 {
+    .lam-img-iki {
         width: 18.53px;
         height: 18.53px;
     }
 
-    .lam_img3 {
+    .lam-img-uc {
         width: 20.27px;
         height: 20.27px;
     }
 
-    .lam_img4 {
+    .lam-img-dord {
         width: 19.69px;
         height: 19.69px;
     }
 
-    .lam_src1 {
+    .lam-src-bir {
         width: 15.64px;
         height: 15.64px;
         padding-right: 0;
         margin-right: 5px;
     }
 
-    .lam_src2 {
+    .lam-src-iki {
         width: 15.64px;
         height: 10.43px;
         padding-right: 0;
         margin-right: 5px;
     }
 
-    .lam_p1 {
+    .lam-p-bir {
         font-size: 14px;
         line-height: 14.19px;
     }
 
-    .lam_p2 {
+    .lam-p-iki {
         font-size: 14px;
         line-height: 14.19px;
     }
 
-    .lam_bottom {
+    .lam-bottom {
         font-size: 10px;
         line-height: 10.14px;
     }
 
-    .lam_ul1 {
+    .lam-ul-bir {
         gap: 5px;
     }
 
-    .lam_p11 {
+    .lam-p-bir-bir {
         font-size: 32px;
         line-height: 32.44px;
     }
 
-    .lam_par {
+    .lam-par {
         font-size: 14px;
     }
 
-    .lam_span {
+    .lam-span {
         font-size: 46px;
     }
 
-    .lam_main1 {
+    .lam-main-bir {
         margin-left: 70.66px;
         padding-top: 90px;
         gap: 15px;
     }
 
-    .lam_list1 {
+    .lam-list-bir {
         font-size: 14px;
         line-height: 14.19px;
     }
 
-    .lam_list2 {
+    .lam-list-iki {
         font-size: 10px;
         line-height: 10.14px;
     }
 
-    .main_ul1 {
+    .main-ul-bir {
         width: 170.28px;
     }
 
-    .main_ul2 {
+    .main-ul-iki {
         width: 170.28px;
     }
 
@@ -986,121 +1038,121 @@ footer {
 
 /* Mobile */
 @media screen and (min-width: 300px) and (max-width: 600px) {
-    .lam_main {
+    .lam-main {
         width: 100%;
         height: 363.46px;
     }
 
     footer {
         width: 100%;
-        height: 251px;
+        height: 300px;
     }
 
-    .lam_p11 {
+    .lam-p-bir-bir {
         font-size: 26px;
         line-height: 26.36px;
     }
 
-    .lam_main1 {
+    .lam-main-bir {
         margin-left: 34px;
         padding-top: 50px;
         gap: 15px;
     }
 
-    .main_ul1 {
+    .main-ul-bir {
         width: 138px;
     }
 
-    .main_ul2 {
+    .main-ul-iki {
         width: 58%;
     }
 
-    .lam_p {
+    .lam-p {
         width: 200px;
     }
 
-    .lam_par {
+    .lam-par {
         font-size: 12px;
     }
 
-    .lam_span {
+    .lam-span {
         font-size: 37px;
     }
 
-    .lam_list1 {
+    .lam-list-bir {
         font-size: 12px;
         line-height: 12.17px;
     }
 
-    .lam_list2 {
+    .lam-list-iki {
         font-size: 10px;
         line-height: 10.14px;
     }
 
-    .lam_ul1 {
+    .lam-ul-bir {
         gap: 3px;
     }
 
-    .lam_main3 {
+    .lam-main-uc {
         gap: 37px;
     }
 
-    .lam_img {
+    .lam-img {
         width: 53.59px;
         height: 31.69px;
     }
 
-    .lam_img1 {
+    .lam-img-bir {
         width: 15.38px;
         height: 15.38px;
     }
 
-    .lam_img2 {
+    .lam-img-iki {
         width: 14.91px;
         height: 14.91px;
     }
 
-    .lam_img3 {
+    .lam-img-uc {
         width: 16.31px;
         height: 16.31px;
     }
 
-    .lam_img4 {
+    .lam-img-dord {
         width: 15.84px;
         height: 15.84px;
     }
 
-    .lam_src1 {
+    .lam-src-bir {
         width: 12.58px;
         height: 12.58px;
         padding-right: 0;
         margin-right: 5px;
     }
 
-    .lam_src2 {
+    .lam-src-iki {
         width: 12.58px;
         height: 8.39px;
         padding-right: 0;
         margin-right: 5px;
     }
 
-    .lam_p1 {
+    .lam-p-bir {
         font-size: 12px;
         line-height: 12.17px;
     }
 
-    .lam_p2 {
+    .lam-p-iki {
         font-size: 12px;
         line-height: 12.17px;
     }
 
-    .lam_one {
+    .lam-one {
         display: flex;
         flex-direction: column;
         gap: 40px;
     }
 
-    .lam_footer {
+    .lam-footer {
         width: 100%;
         height: 251px;
         display: flex;
@@ -1110,11 +1162,11 @@ footer {
         margin-top: 30px;
     }
 
-    .lam_ul1 {
+    .lam-ul-bir {
         padding-left: 0;
     }
 
-    .lam_bottom {
+    .lam-bottom {
         font-size: 10px;
         line-height: 10.14px;
         margin-bottom: 30px;
